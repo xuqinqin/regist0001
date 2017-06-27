@@ -14,9 +14,9 @@ import java.io.Serializable;
  * 
  * CREATE TABLE `tb_user` (
   `id` INT(11) NOT NULL AUTO_INCREMENT,
-  `name` VARCHAR(18) DEFAULT NULL,
-  `sex` CHAR(2) DEFAULT NULL,
-  `age` INT(11) DEFAULT NULL,
+  `username` VARCHAR(18) DEFAULT NULL,
+  `password2` VARCHAR(18) DEFAULT NULL,
+ 
   PRIMARY KEY  (`id`)
 )
  */
